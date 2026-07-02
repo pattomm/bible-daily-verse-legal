@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Bible Daily Verse</title>
+  <style>
+    :root {
+      --bg: #F6F2EA;
+      --text: #1A1612;
+      --text-dim: rgba(26, 22, 18, 0.72);
+      --accent: #B8843D;
+      --card: rgba(26, 22, 18, 0.04);
+      --border: rgba(26, 22, 18, 0.12);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1A1612;
+        --text: #F5F5F5;
+        --text-dim: rgba(255, 255, 255, 0.72);
+        --accent: #D4A373;
+        --card: rgba(255, 255, 255, 0.06);
+        --border: rgba(255, 255, 255, 0.15);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    h1 {
+      font-size: 34px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      margin: 0 0 4px;
+    }
+    .meta {
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--accent);
+      margin: 44px 0 12px;
+    }
+    p, li { color: var(--text-dim); }
+    strong { color: var(--text); font-weight: 600; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin: 18px 0;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Bible Daily Verse &middot; Effective date: July 1, 2026</p>
+
+    <p>
+      Bible Daily Verse ("the app", "we") is a Bible reading and spiritual companion app.
+      This policy explains what information the app handles, why, and the choices you have.
+      We keep it simple because our data practices are simple: <strong>we do not sell your
+      data, we do not show ads, and we do not use advertising or analytics trackers.</strong>
+    </p>
+
+    <h2>1. Information we collect</h2>
+
+    <p><strong>Account information (optional).</strong> You can use the app without an
+    account. If you create one, we collect your <strong>email address</strong> to identify
+    your account and sync your content across devices. You also choose a password, but it
+    is handled directly by our authentication provider (Supabase) over an encrypted
+    connection and is stored only as a secure, one-way hash. <strong>Neither we nor our
+    provider can see or recover your actual password.</strong></p>
+
+    <p><strong>Content you create.</strong> Highlights, bookmarks, written notes, voice
+    notes (audio recordings you choose to record), saved guidance results, and your
+    reading streak. Without an account, this content stays on your device; with an
+    account, it is synced to our backend so you don't lose it.</p>
+
+    <p><strong>Personalization answers.</strong> During onboarding you may share your
+    first name, age range, denomination, how you're feeling, and your spiritual
+    interests. These answers are used only to personalize your experience (for example,
+    tailoring daily phrases and guidance). All onboarding questions can be skipped.</p>
+
+    <p><strong>Guidance requests.</strong> When you use the AI Guidance feature, the
+    emotion, intensity, and any context text you provide are processed to generate a
+    scripture-based response (see "AI features" below).</p>
+
+    <p><strong>Subscription status.</strong> Whether you have an active premium
+    subscription, so the app can unlock premium features. Payments are processed
+    entirely by Apple — <strong>we never see or store your payment card details.</strong></p>
+
+    <div class="card">
+      <strong>What we do NOT collect:</strong> location, contacts, photos, browsing
+      history, advertising identifiers, or any analytics/behavioral tracking data.
+    </div>
+
+    <h2>2. How we use your information</h2>
+    <ul>
+      <li>To provide the app's features: reading, notes, sync, daily phrases, widgets, and reminders.</li>
+      <li>To personalize content such as daily phrases and guidance.</li>
+      <li>To manage your subscription and unlock premium features.</li>
+      <li>To respond to support requests you send us.</li>
+    </ul>
+    <p>We do not use your information for advertising, and we never sell it to anyone.</p>
+
+    <h2>3. Services we rely on</h2>
+    <p>The app uses a small number of service providers, strictly to operate its features:</p>
+    <ul>
+      <li><strong>Supabase</strong> — our backend (authentication, database, and storage).
+        Your account and synced content are stored here.
+        (<a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase privacy policy</a>)</li>
+      <li><strong>RevenueCat</strong> — subscription management. Receives an anonymous
+        app user ID and purchase receipts from Apple to validate your subscription.
+        (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat privacy policy</a>)</li>
+      <li><strong>OpenAI</strong> — powers the AI Guidance and daily content features.
+        When you request guidance, the text of your request (never your name, email, or
+        account details) is sent to OpenAI's API to generate a response.
+        (<a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI privacy policy</a>)</li>
+      <li><strong>Apple</strong> — processes all payments and manages your subscription
+        billing through your Apple ID.</li>
+    </ul>
+
+    <h2>4. AI features</h2>
+    <p>
+      Guidance responses and daily reflections are generated with AI. Your guidance
+      inputs are sent to our backend and forwarded to OpenAI to produce the response.
+      These requests are not used to identify you and are not combined with your account
+      profile for any purpose other than generating the content you asked for.
+    </p>
+
+    <h2>5. Notifications</h2>
+    <p>
+      Daily verse reminders are optional and scheduled <strong>locally on your
+      device</strong>. You can change or disable them anytime in the app's settings or
+      in iOS Settings &rarr; Notifications.
+    </p>
+
+    <h2>6. Data retention and deletion</h2>
+    <ul>
+      <li>Content stored only on your device is deleted when you delete the app.</li>
+      <li>Synced content remains in your account until you delete it or delete your account.</li>
+      <li><strong>You can delete your account and all associated data directly in the
+        app:</strong> Profile &rarr; Account &rarr; Delete Account. This permanently
+        removes your account, notes, highlights, bookmarks, voice notes, and
+        personalization data.</li>
+      <li>You can also request deletion by contacting us at the email below; we will
+        complete the request within 30 days.</li>
+    </ul>
+
+    <h2>7. Children</h2>
+    <p>
+      The app is not directed at children under 13, and we do not knowingly collect
+      personal information from children under 13. If you believe a child has provided
+      us personal information, contact us and we will delete it.
+    </p>
+
+    <h2>8. Security</h2>
+    <p>
+      Data in transit is encrypted with HTTPS/TLS. Synced content is stored with our
+      backend provider (Supabase) using industry-standard protections, and access to
+      your synced content requires your authenticated account. Passwords are never stored
+      in plain text: authentication is handled by Supabase, which keeps only a secure
+      one-way hash of your password that cannot be reversed into the original.
+    </p>
+
+    <h2>9. Your rights</h2>
+    <p>
+      Depending on where you live (for example, under GDPR or CCPA), you may have the
+      right to access, correct, export, or delete your personal information. To exercise
+      any of these rights, email us — we honor these requests for all users regardless
+      of location.
+    </p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>
+      If we make material changes, we will update this page and the effective date
+      above. Continued use of the app after a change means you accept the updated policy.
+    </p>
+
+    <h2>11. Contact</h2>
+    <p>
+      Questions, requests, or concerns:<br />
+      <strong>Email:</strong> <a href="mailto:tommasi.dev.studio@gmail.com">tommasi.dev.studio@gmail.com</a>
+    </p>
+
+    <footer>
+      &copy; 2026 Bible Daily Verse. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
