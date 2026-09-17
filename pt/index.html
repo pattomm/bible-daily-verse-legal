@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade — Eloa</title>
+  <style>
+    :root {
+      --bg: #F6F2EA;
+      --text: #1A1612;
+      --text-dim: rgba(26, 22, 18, 0.72);
+      --accent: #B8843D;
+      --card: rgba(26, 22, 18, 0.04);
+      --border: rgba(26, 22, 18, 0.12);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1A1612;
+        --text: #F5F5F5;
+        --text-dim: rgba(255, 255, 255, 0.72);
+        --accent: #D4A373;
+        --card: rgba(255, 255, 255, 0.06);
+        --border: rgba(255, 255, 255, 0.15);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', serif;
+      line-height: 1.7;
+      font-size: 17px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+    h1 {
+      font-size: 34px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      margin: 0 0 4px;
+    }
+    .meta {
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--accent);
+      margin: 44px 0 12px;
+    }
+    p, li { color: var(--text-dim); }
+    strong { color: var(--text); font-weight: 600; }
+    ul { padding-left: 22px; }
+    li { margin-bottom: 8px; }
+    a { color: var(--accent); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px 22px;
+      margin: 18px 0;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Política de Privacidade</h1>
+    <p class="meta">Eloa &middot; Data de vigência: 16 de setembro de 2026 &middot; <a href="../">English</a> &middot; <a href="../es/">Español</a></p>
+
+    <p>
+      A Eloa (“o app”, “nós”) é um app de leitura da Bíblia e companhia espiritual. Esta política explica
+      quais informações o app trata, por quê e quais escolhas você tem. Mantemos tudo simples porque nossas
+      práticas com dados são simples: <strong>não vendemos seus dados, não exibimos anúncios e não usamos
+      rastreadores de publicidade ou de análise.</strong>
+    </p>
+
+    <h2>1. Informações que coletamos</h2>
+
+    <p><strong>Informações da conta (opcional).</strong> Você pode usar o app sem conta. Se criar uma,
+    coletamos seu <strong>e-mail</strong> para identificar sua conta e sincronizar seu conteúdo entre
+    dispositivos. Você também escolhe uma senha, mas ela é tratada diretamente pelo nosso provedor de
+    autenticação (Supabase) por uma conexão criptografada e armazenada apenas como um hash seguro de mão
+    única. <strong>Nem nós nem nosso provedor conseguimos ver ou recuperar sua senha.</strong></p>
+
+    <p><strong>Conteúdo que você cria.</strong> Destaques, favoritos, anotações escritas, notas de voz
+    (gravações de áudio que você decide fazer), orientações salvas e sua sequência de leitura. Sem conta,
+    esse conteúdo fica no seu dispositivo; com conta, ele é sincronizado com nosso servidor para que você
+    não o perca.</p>
+
+    <p><strong>Respostas de personalização.</strong> Na apresentação inicial (onboarding) você informa seu
+    primeiro nome e pode informar sua faixa etária, denominação, como está se sentindo e seus interesses
+    espirituais. Essas respostas são usadas apenas para personalizar sua experiência no app (por exemplo,
+    chamar você pelo nome). Todas as perguntas, exceto o primeiro nome, podem ser puladas. Sem conta, elas
+    ficam no seu dispositivo; com conta, são armazenadas no seu perfil.</p>
+
+    <p><strong>Pedidos de orientação.</strong> Quando você usa o Guia com a IA ativada, a emoção, a
+    intensidade e o texto de contexto que você escrever são processados para gerar uma resposta baseada na
+    Bíblia. A IA só é usada com a sua permissão (veja “Recursos de IA” abaixo).</p>
+
+    <p><strong>Status da assinatura.</strong> Se você tem uma assinatura Premium ativa, para que o app possa
+    liberar os recursos Premium. Os pagamentos são processados inteiramente pela Apple: <strong>nunca vemos
+    nem armazenamos os dados do seu cartão.</strong></p>
+
+    <div class="card">
+      <strong>O que NÃO coletamos:</strong> localização, contatos, fotos, histórico de navegação,
+      identificadores de publicidade nem nenhum dado de análise ou rastreamento de comportamento.
+    </div>
+
+    <h2>2. Como usamos suas informações</h2>
+    <ul>
+      <li>Para oferecer os recursos do app: leitura, anotações, sincronização, frases diárias, widgets e lembretes.</li>
+      <li>Para personalizar sua experiência, como chamar você pelo nome e adaptar a orientação ao que você compartilha.</li>
+      <li>Para gerenciar sua assinatura e liberar os recursos Premium.</li>
+      <li>Para responder aos pedidos de suporte que você nos enviar.</li>
+    </ul>
+    <p>Não usamos suas informações para publicidade e nunca as vendemos a ninguém.</p>
+
+    <h2>3. Serviços que utilizamos</h2>
+    <p>O app usa poucos provedores de serviço, apenas para operar seus recursos:</p>
+    <ul>
+      <li><strong>Supabase</strong> — nosso servidor (autenticação, banco de dados e armazenamento). Sua
+        conta e seu conteúdo sincronizado ficam aqui.
+        (<a href="https://supabase.com/privacy" target="_blank" rel="noopener">Política de privacidade da Supabase</a>)</li>
+      <li><strong>RevenueCat</strong> — gestão de assinaturas. Recebe um identificador de usuário do app
+        (anônimo, ou o da sua conta se você estiver conectado) e os recibos de compra da Apple para validar
+        sua assinatura.
+        (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">Política de privacidade da RevenueCat</a>)</li>
+      <li><strong>OpenAI</strong> — viabiliza a orientação com IA e o conteúdo diário. Somente se você
+        permitir a IA, ao pedir uma orientação, a emoção, a intensidade e o texto que você escreveu (nunca
+        seu nome, e-mail ou dados da conta) são enviados à API da OpenAI para gerar uma resposta.
+        (<a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">Política de privacidade da OpenAI</a>)</li>
+      <li><strong>Apple</strong> — processa todos os pagamentos e gerencia a cobrança da sua assinatura
+        pela sua conta Apple.</li>
+    </ul>
+
+    <h2>4. Recursos de IA</h2>
+    <p>
+      <strong>A orientação usa IA somente com a sua permissão explícita.</strong> Na primeira vez que você
+      pede uma orientação, o app pergunta se você permite a IA e explica exatamente o que é enviado: a
+      emoção que você escolhe, sua intensidade e o texto opcional que você escreve. Seu nome, e-mail,
+      anotações, destaques e dados da conta nunca são enviados.
+    </p>
+    <ul>
+      <li>Se você permitir, esses dados são enviados ao nosso servidor e encaminhados à OpenAI para gerar a
+        resposta. Eles não são usados para identificar você nem combinados com o seu perfil.</li>
+      <li>Se você recusar, o app mostra uma orientação geral criada no seu dispositivo e não envia nada.</li>
+      <li>Você pode mudar sua escolha a qualquer momento no app: Ajustes &rarr; Privacidade &rarr;
+        Orientação com IA.</li>
+    </ul>
+    <p>
+      A explicação, a reflexão e a oração do versículo do dia são conteúdos gerais gerados uma vez por dia
+      para cada idioma. Elas não contêm informações sobre você.
+    </p>
+
+    <h2>5. Notificações</h2>
+    <p>
+      Os lembretes diários são opcionais e agendados <strong>localmente no seu dispositivo</strong>, assim
+      como o aviso enviado antes do fim de um teste grátis. Você pode alterá-los ou desativá-los quando quiser
+      nos ajustes do app ou em Ajustes do iPhone &rarr; Notificações.
+    </p>
+
+    <h2>6. Retenção e exclusão de dados</h2>
+    <ul>
+      <li>O conteúdo guardado apenas no seu dispositivo é apagado quando você exclui o app.</li>
+      <li>O conteúdo sincronizado permanece na sua conta até você apagá-lo ou excluir sua conta.</li>
+      <li><strong>Você pode excluir sua conta e todos os dados associados diretamente no app:</strong>
+        Ajustes &rarr; Excluir conta (visível quando você está conectado). Isso remove permanentemente sua
+        conta, anotações, destaques, favoritos, notas de voz e dados de personalização.</li>
+      <li>Você também pode pedir a exclusão pelo e-mail abaixo; atenderemos o pedido em até 30 dias.</li>
+    </ul>
+
+    <h2>7. Crianças</h2>
+    <p>
+      O app não é destinado a menores de 13 anos, e não coletamos intencionalmente informações pessoais de
+      menores de 13 anos. Se você acredita que uma criança nos forneceu informações pessoais, entre em
+      contato e nós as excluiremos.
+    </p>
+
+    <h2>8. Segurança</h2>
+    <p>
+      Os dados em trânsito são criptografados com HTTPS/TLS. O conteúdo sincronizado é armazenado no nosso
+      provedor de servidor (Supabase) com proteções padrão do setor, e o acesso a ele exige sua conta
+      autenticada. As senhas nunca são armazenadas em texto simples: a autenticação é feita pela Supabase,
+      que guarda apenas um hash seguro de mão única, que não pode ser revertido para a senha original.
+    </p>
+    <p>
+      Para proteger os recursos de IA contra abusos, nosso servidor limita quantas solicitações podem ser
+      feitas. Para isso, guarda um hash irreversível e com chave do endereço IP que faz a solicitação (nunca
+      o próprio endereço IP) por até 2 dias e depois o apaga.
+    </p>
+
+    <h2>9. Seus direitos</h2>
+    <p>
+      Dependendo de onde você mora — por exemplo, pela Lei Geral de Proteção de Dados (LGPD) no Brasil —,
+      você pode ter direito de confirmar a existência de tratamento, acessar, corrigir, exportar ou excluir
+      seus dados pessoais, além de revogar seu consentimento. Para exercer qualquer um desses direitos,
+      envie um e-mail; atendemos esses pedidos para todos os usuários, independentemente de onde morem.
+    </p>
+
+    <h2>10. Alterações nesta política</h2>
+    <p>
+      Se fizermos mudanças importantes, atualizaremos esta página e a data de vigência acima. O uso contínuo
+      do app após uma mudança significa que você aceita a política atualizada.
+    </p>
+
+    <h2>11. Contato</h2>
+    <p>
+      Dúvidas, pedidos ou preocupações:<br />
+      <strong>E-mail:</strong> <a href="mailto:tommasi.dev.studio@gmail.com">tommasi.dev.studio@gmail.com</a>
+    </p>
+
+    <footer>
+      &copy; 2026 Eloa. Todos os direitos reservados.
+    </footer>
+  </main>
+</body>
+</html>
