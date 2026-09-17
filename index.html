@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy — Bible Daily Verse</title>
+  <title>Privacy Policy — Eloa</title>
   <style>
     :root {
       --bg: #F6F2EA;
@@ -78,10 +78,10 @@
 <body>
   <main>
     <h1>Privacy Policy</h1>
-    <p class="meta">Bible Daily Verse &middot; Effective date: July 1, 2026</p>
+    <p class="meta">Eloa &middot; Effective date: September 16, 2026</p>
 
     <p>
-      Bible Daily Verse ("the app", "we") is a Bible reading and spiritual companion app.
+      Eloa ("the app", "we") is a Bible reading and spiritual companion app.
       This policy explains what information the app handles, why, and the choices you have.
       We keep it simple because our data practices are simple: <strong>we do not sell your
       data, we do not show ads, and we do not use advertising or analytics trackers.</strong>
@@ -101,14 +101,17 @@
     reading streak. Without an account, this content stays on your device; with an
     account, it is synced to our backend so you don't lose it.</p>
 
-    <p><strong>Personalization answers.</strong> During onboarding you may share your
-    first name, age range, denomination, how you're feeling, and your spiritual
-    interests. These answers are used only to personalize your experience (for example,
-    tailoring daily phrases and guidance). All onboarding questions can be skipped.</p>
+    <p><strong>Personalization answers.</strong> During onboarding you share your
+    first name and may share your age range, denomination, how you're feeling, and your
+    spiritual interests. These answers are used only to personalize your experience in
+    the app (for example, greeting you by name). Every question except your first name
+    can be skipped. Without an account they stay on your device; with an account they are
+    stored in your profile.</p>
 
-    <p><strong>Guidance requests.</strong> When you use the AI Guidance feature, the
+    <p><strong>Guidance requests.</strong> When you use Guidance with AI turned on, the
     emotion, intensity, and any context text you provide are processed to generate a
-    scripture-based response (see "AI features" below).</p>
+    scripture-based response. AI is used only with your permission (see "AI features"
+    below).</p>
 
     <p><strong>Subscription status.</strong> Whether you have an active premium
     subscription, so the app can unlock premium features. Payments are processed
@@ -138,8 +141,9 @@
         app user ID and purchase receipts from Apple to validate your subscription.
         (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat privacy policy</a>)</li>
       <li><strong>OpenAI</strong> — powers the AI Guidance and daily content features.
-        When you request guidance, the text of your request (never your name, email, or
-        account details) is sent to OpenAI's API to generate a response.
+        Only if you allow AI, when you request guidance the emotion, intensity, and text
+        you wrote (never your name, email, or account details) are sent to OpenAI's API
+        to generate a response.
         (<a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noopener">OpenAI privacy policy</a>)</li>
       <li><strong>Apple</strong> — processes all payments and manages your subscription
         billing through your Apple ID.</li>
@@ -147,17 +151,31 @@
 
     <h2>4. AI features</h2>
     <p>
-      Guidance responses and daily reflections are generated with AI. Your guidance
-      inputs are sent to our backend and forwarded to OpenAI to produce the response.
-      These requests are not used to identify you and are not combined with your account
-      profile for any purpose other than generating the content you asked for.
+      <strong>Guidance uses AI only with your explicit permission.</strong> The first time
+      you request guidance, the app asks whether to allow AI and explains exactly what is
+      sent: the emotion you choose, its intensity, and the optional text you write. Your
+      name, email, notes, highlights, and account data are never sent.
+    </p>
+    <ul>
+      <li>If you allow it, those inputs are sent to our backend and forwarded to OpenAI to
+        produce the response. They are not used to identify you and are not combined with
+        your account profile.</li>
+      <li>If you decline, the app shows general guidance created on your device and sends
+        nothing.</li>
+      <li>You can change your choice at any time in the app: Settings &rarr; Privacy &rarr;
+        AI Guidance.</li>
+    </ul>
+    <p>
+      The daily verse explanation, reflection, and prayer are general content generated
+      once per day per language. They contain no information about you.
     </p>
 
     <h2>5. Notifications</h2>
     <p>
-      Daily verse reminders are optional and scheduled <strong>locally on your
-      device</strong>. You can change or disable them anytime in the app's settings or
-      in iOS Settings &rarr; Notifications.
+      Daily reminders are optional and scheduled <strong>locally on your
+      device</strong>, as is the reminder sent before a free trial ends. You can change or
+      disable reminders anytime in the app's settings or in iOS Settings &rarr;
+      Notifications.
     </p>
 
     <h2>6. Data retention and deletion</h2>
@@ -165,7 +183,7 @@
       <li>Content stored only on your device is deleted when you delete the app.</li>
       <li>Synced content remains in your account until you delete it or delete your account.</li>
       <li><strong>You can delete your account and all associated data directly in the
-        app:</strong> Profile &rarr; Account &rarr; Delete Account. This permanently
+        app:</strong> Settings &rarr; Delete Account (shown while you are signed in). This permanently
         removes your account, notes, highlights, bookmarks, voice notes, and
         personalization data.</li>
       <li>You can also request deletion by contacting us at the email below; we will
@@ -186,6 +204,11 @@
       your synced content requires your authenticated account. Passwords are never stored
       in plain text: authentication is handled by Supabase, which keeps only a secure
       one-way hash of your password that cannot be reversed into the original.
+    </p>
+    <p>
+      To protect the AI features from abuse, our backend limits how many requests can be
+      made. For this it keeps a keyed, irreversible hash of the requesting IP address
+      (never the IP address itself) for up to 2 days, and then deletes it.
     </p>
 
     <h2>9. Your rights</h2>
@@ -209,7 +232,7 @@
     </p>
 
     <footer>
-      &copy; 2026 Bible Daily Verse. All rights reserved.
+      &copy; 2026 Eloa. All rights reserved.
     </footer>
   </main>
 </body>
